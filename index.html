@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Charles</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --link: #0969da; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; --link: #4493f8; }
+  }
+  body { background: var(--bg); color: var(--fg); margin: 0;
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  p { margin: 0 0 16px; }
+  .muted { color: var(--muted); }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Charles</h1>
+  <p class="muted">A private, single-user email assistant.</p>
+  <p>Charles is a personal tool that its owner runs on their own computer. It sorts the
+     owner's email, keeps a to-do list of the things that need doing, and shows that list
+     in the owner's own Google Tasks.</p>
+  <p>It is not a public service: nobody else can sign up for it or use it.</p>
+  <p><a href="privacy.html">Privacy policy</a></p>
+</main>
+</body>
+</html>
